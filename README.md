@@ -1,22 +1,8 @@
-# qs8relay_android
-Android Apk for management a QS-8Relay module.
-
-
-PRE) You need to pair with device before use the application. Use bluetooth on android system to do it.
-
-App features:
-
-1) Include background service for auto-update relays module each 30 seconds. The service start at mobile boot but is necessary that doesn't close main app.
-
-2) When device is selected in the next view, can be configured relays name and device name.
-
-3) State saved will be passed to background service to auto-update.
-
-4) If app is closed you can run background service by re-open the application and send to background.
-
-5) When communicate with device you can configure number of tries and milliseconds between each try. You can configure it on device config view.
-
-6) The app has a widget for see and update background service.
-
-Thanks you for see my repo!
-
+1. Energizar o módulo;
+2. Pressionar o botão até que o LED fique aceso constantemente;
+3. Parear o celular com o aparelho de nome QS-8RELAY: a senha será 1234 ou 123456
+4. Abrir o aplicativo;
+5. Selecionar o dispositivo pareado;
+6. Definir o estado dos relés;
+7. Pressionar "SAVE STATE";
+8. Sempre que quiser atualizar o estado dos relés, repetir do passo 6.
